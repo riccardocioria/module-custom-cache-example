@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Cache/etc/cache.xsd">
+    <type name="blog_customcache" translate="label,description" instance="Blog\CustomCache\Model\Cache\Type\CacheType">
+        <label>Blog Post Custom Cache</label>
+        <description>Custom Cache Storage used to in the Bitbull post article</description>
+    </type>
+</config>
